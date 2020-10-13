@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lawan Corona!</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+</head>
+
+<body>
+    <header>
+        <div class="jumbotron">
+            <h1>Cegah sebaran virus corona!</h1>
+            <p>Jaga keluarga anda dari virus corona dengan lakukan 3M</p>
+        </div>
+        <nav>
+            <a href="#" class="active">Lawan Corona!</a>
+            <div id="navMenu">
+                <a href="#pakaimasker" onclick="toggleNav()">Memakai Masker</a>
+                <a href="#jagajarak" onclick="toggleNav()">Menjaga Jarak</a>
+                <a href="#cucitangan" onclick="toggleNav()">Mencuci Tangan</a>
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="toggleNav()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </nav>
+    </header>
+    <main>
+        <div id="container">
+            <article id="pakaimasker" class="card">
+                <h2>Memakai Masker</h2>
+                <img src="./assets/images/masker.jpg" alt="pakaimasker" class="featured-image">
+                <p>
+                    Memakai masker dengan benar saat ke mana pun pergi
+                </p>
+            </article>
+            <article id="jagajarak" class="card">
+                <h2>Menjaga Jarak</h2>
+                <img src="./assets/images/jagajarak.jpg" alt="jagajarak" class="featured-image">
+                <p>
+                    Menjaga jarak aman 1,5 - 2 meter dengan orang lain
+                </p>
+            </article>
+            <article id="cucitangan" class="card">
+                <h2>Mencuci Tangan</h2>
+                <img src="./assets/images/cucitangan.jpg" alt="cucitangan" class="featured-image">
+                <p>
+                    Mencuci tangan dengan sabun dan air mengalir secara rutin
+                </p>
+            </article>
+        </div>
+        <aside>
+            <article class="profile card">
+                <header>
+                    <h2>Profile</h2>
+                    <figure>
+                        <img src="./assets/images/profile.jpg" alt="profile" class="featured-image">
+                    </figure>
+                </header>
+                <section>
+                    <h3>Informasi</h3>
+                    <table>
+                        <tr>
+                            <th>Nama</th>
+                            <td>Dimas Firdaus</td>
+                        </tr>
+                        <tr>
+                            <th>Bergabung sejak</th>
+                            <td>08 Mar 2020</td>
+                        </tr>
+                        <tr>
+                            <th>Kota</th>
+                            <td>Tangerang, Banten</td>
+                        </tr>
+                    </table>
+                </section>
+            </article>
+        </aside>
+    </main>
+    <footer>
+        <p>Lawan Corona &#169; 2020</p>
+        <p>Disclaimer, website ini digunakan hanya untuk memenuhi tugas submission pada program pembelajaran
+            dicoding.com</p>
+    </footer>
+    <script src="assets/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+h2, h3 {
+    color: #4CAF50;
+}
+
+th {
+    text-align: left; 
+    vertical-align: top;
+    width: 150px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+
+main {
+    padding: 20px;
+    display: flex;
+}
+
+header {
+    display: inline;
+}
+
+aside {
+    flex-grow: 1;
+    margin-left: 20px;
+}
+
+#container {    
+    flex-grow: 1;
+}
+
+.featured-image {
+    width: 100%;
+    max-height: 300px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.jumbotron {
+    font-size: 20px;
+    padding: 40px;
+    background-color: #2ec1ac;
+    text-align: center;
+    color: #eff48e;
+}
+
+@media screen and (max-width: 1000px) {
+    main {
+        flex-direction: column;
+    }
+    aside {
+        margin-left: 0;
+    }
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.profile header {
+    text-align: center;
+}
+
+footer {
+    padding: 20px;
+    color: white;
+    background-color: #17706e;
+    text-align: center;
+    font-weight: bold;
+}
+
+nav {
+    background-color: #17706e;
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+}
+
+nav #navMenu {
+    display: none;
+}
+
+nav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+}
+
+nav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+nav a:hover {
+    font-weight: bold;
+}
+
+.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
